@@ -12,7 +12,7 @@ Friendly_society_main.py 运行程序
 	
 	2.如果有多个账号需要管理,获取每个账号的App端和Pc端的Cookie进行存放
 	格式例	如:access_token=1cee75d1e4abdac5990994fcba8e3b21;refresh_token=37924c4ae79d352f8f9ca469bc032721;bili_jct=fd584f9081e2503a65fcaddbf36954b9;DedeUserID=471433885;DedeUserID__ckMd5=74625122ffdbe521;sid=a6iwqb41;SESSDATA=33c3006f%2C1584951691%2C5a382921
-	按照每行存在在cookies.txt
+	按照每行存放在cookies.txt
 	
 	3.获取你自己的友爱社id,需要一点的抓包知识,用自己的其他账号加入友爱社,然后看参数,union的参数就是友爱社id,然后在Friendly_Society.py中 的union_id=中填入你的友爱社id
 	
