@@ -47,10 +47,11 @@ def sum_requests(cookie):
     try:
         temp = Friendly_society(cookie)
         # 申请加入
-        temp.doSign()
         temp.Join_friendly_society()
         #设置休眠 确保所有账户都已经进入了友爱社  看实际网络情况进行延迟
         time.sleep(35)
+        #签到
+        temp.doSign()
         # 开始批量心跳
         temp.Pc_AppHearbeat()
         time.sleep(300)
