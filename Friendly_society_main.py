@@ -5,10 +5,10 @@ import threading
 # 一次进入友爱社人员数量
 num = 5
 
-# 获得cookie合集
+
 from Friendly_Society.Friendly_society import Friendly_society
 
-
+# 获得cookie合集
 def get_Cookie():
     Cookie_list = []
     with open('cookies.txt', 'r+') as f:
