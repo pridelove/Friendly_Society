@@ -1,5 +1,5 @@
 
-from Friendly_Society.Friendly_society import *
+from Friendly_society import *
 import threading
 
 # 一次进入友爱社人员数量
