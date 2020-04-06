@@ -6,7 +6,7 @@ import threading
 num = 5
 
 
-from Friendly_Society.Friendly_society import Friendly_society
+from Friendly_society import Friendly_society
 
 # 获得cookie合集
 def get_Cookie():
